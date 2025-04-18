@@ -19,3 +19,31 @@
 - Python：3.9 或以上版本
 - （推荐）使用 conda 创建虚拟环境
 
+## 🚀 安装与运行步骤
+
+### 1. 克隆项目或进入代码目录
+
+```bash
+git clone https://your.repo/pdf-cleaner.git
+cd pdf-cleaner
+```
+
+### 2. （可选）使用 Conda 创建并激活虚拟环境
+```bash
+conda create -n pdfcleaner python=3.9
+conda activate pdfcleaner
+```
+
+### 3. 安装依赖库
+```bash
+pip install -r requirements.txt
+```
+### 4. 启动服务
+```bash
+python app.py
+```
+### 5. 访问页面
+打开浏览器，访问以下隐藏路径（默认配置）：
+```bash
+http://<本机IP>:8912/cleaner-a8F7g9Qd23kL
+```
